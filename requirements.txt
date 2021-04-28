@@ -3,6 +3,6 @@ gunicorn
 flask
 numpy==1.19.5
 pillow
-opencv-python==4.5.1.*
+python3-opencv
 keras==2.4.3
 requests
