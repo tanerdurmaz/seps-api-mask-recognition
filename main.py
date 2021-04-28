@@ -32,7 +32,7 @@ def find(url):
     #unknown_image = np.array(im)
 
 
-    resp = requests.get("https://blog.dacia.de/wp-content/uploads/2020/09/autofahren-maske-1-1170x550.jpg")
+    resp = requests.get(url)
 
     image = np.asarray(bytearray(resp.content), dtype="uint8")
 
