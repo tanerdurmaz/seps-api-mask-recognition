@@ -31,7 +31,7 @@ def find(url):
     #im = im.convert('RGB')
     #unknown_image = np.array(im)
 
-image = cv2.imread("obama.jpg")
+    image = cv2.imread("obama.jpg")
     (h, w) = image.shape[:2]
 
     # construct a blob from the image
