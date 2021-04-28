@@ -1,10 +1,7 @@
 # requirements.txt
 gunicorn
 flask
-requests
-jsonify
 numpy==1.19.5
 pillow
 opencv-python
-tensorflow>=2.5.0*
 keras==2.4.3
