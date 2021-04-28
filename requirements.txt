@@ -1,0 +1,10 @@
+# requirements.txt
+gunicorn
+flask
+requests
+jsonify
+face_recognition
+numpy
+pillow
+opencv-python
+tensorflow
