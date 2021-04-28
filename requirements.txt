@@ -3,7 +3,6 @@ gunicorn
 flask
 requests
 jsonify
-face_recognition
 numpy==1.19.5
 pillow
 opencv-python
