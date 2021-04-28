@@ -31,7 +31,12 @@ def find(url):
     #im = im.convert('RGB')
     #unknown_image = np.array(im)
 
-    image = cv2.imread("obama.jpg")
+
+    resp = requests.get("https://blog.dacia.de/wp-content/uploads/2020/09/autofahren-maske-1-1170x550.jpg")
+
+    image = np.asarray(bytearray(resp.content), dtype="uint8")
+
+    image = cv2.imdecode(image, cv2.IMREAD_COLOR)
     (h, w) = image.shape[:2]
 
     # construct a blob from the image
