@@ -3,6 +3,7 @@ gunicorn
 flask
 numpy==1.19.5
 pillow
+tensorflow-cpu
 keras==2.4.3
 opencv-python-headless
 requests
