@@ -4,7 +4,7 @@ flask
 requests
 jsonify
 face_recognition
-numpy
+numpy==1.19.5
 pillow
 opencv-python
 tensorflow>=2.5.0*
